@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d0a08" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="manifest" href="./manifest.webmanifest?v=20261112-1417" />
+  <link rel="icon" href="./icons/icon-192.png?v=20261112-1417" />
+  <link rel="apple-touch-icon" href="./icons/icon-192.png?v=20261112-1417" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Kingsgate" />
+  <title>Kingsgate</title>
+  <script type="module" crossorigin src="./assets/game.js?v=20261112-1417"></script>
+  <link rel="stylesheet" crossorigin href="./assets/game.css?v=20261112-1417">
+</head>
+<body>
+  <!-- CONTRATTO: #game = canvas Phaser, #ui = schermate/HUD/carte HTML, #rotate = avviso portrait -->
+  <div id="game"></div>
+  <div id="ui"></div>
+  <div id="rotate" aria-hidden="true">
+    <div class="rotate-box">
+      <div class="rotate-icon">&#x21BB;</div>
+      <div class="rotate-text">Rotate your device</div>
+    </div>
+  </div>
+</body>
+</html>
